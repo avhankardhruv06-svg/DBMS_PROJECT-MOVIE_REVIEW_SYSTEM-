@@ -1,0 +1,59 @@
+-- GENRE TABLE (sample 10 of 50)
+INSERT INTO GENRE VALUES (1, 'Action');
+INSERT INTO GENRE VALUES (2, 'Drama');
+INSERT INTO GENRE VALUES (3, 'Comedy');
+INSERT INTO GENRE VALUES (4, 'Thriller');
+INSERT INTO GENRE VALUES (5, 'Science Fiction');
+INSERT INTO GENRE VALUES (6, 'Romance');
+INSERT INTO GENRE VALUES (7, 'Adventure');
+INSERT INTO GENRE VALUES (8, 'Fantasy');
+INSERT INTO GENRE VALUES (9, 'Horror');
+INSERT INTO GENRE VALUES (10, 'Animation');
+
+-- DIRECTOR TABLE (sample 10 of 50)
+INSERT INTO DIRECTOR VALUES (1, 'Christopher Nolan', 1970, 'British-American');
+INSERT INTO DIRECTOR VALUES (2, 'Steven Spielberg', 1946, 'American');
+INSERT INTO DIRECTOR VALUES (3, 'James Cameron', 1954, 'Canadian');
+INSERT INTO DIRECTOR VALUES (4, 'Martin Scorsese', 1942, 'American');
+INSERT INTO DIRECTOR VALUES (5, 'Quentin Tarantino', 1963, 'American');
+INSERT INTO DIRECTOR VALUES (6, 'Ridley Scott', 1937, 'British');
+INSERT INTO DIRECTOR VALUES (7, 'Peter Jackson', 1961, 'New Zealander');
+INSERT INTO DIRECTOR VALUES (8, 'Patty Jenkins', 1971, 'American');
+INSERT INTO DIRECTOR VALUES (9, 'Denis Villeneuve', 1967, 'Canadian');
+INSERT INTO DIRECTOR VALUES (10, 'Greta Gerwig', 1983, 'American');
+
+-- ACTOR TABLE (sample 10 of 50)
+INSERT INTO ACTOR VALUES (1, 'Leonardo DiCaprio', 1974, 'American');
+INSERT INTO ACTOR VALUES (2, 'Brad Pitt', 1963, 'American');
+INSERT INTO ACTOR VALUES (3, 'Tom Hanks', 1956, 'American');
+INSERT INTO ACTOR VALUES (4, 'Scarlett Johansson', 1984, 'American');
+INSERT INTO ACTOR VALUES (5, 'Christian Bale', 1974, 'British');
+INSERT INTO ACTOR VALUES (6, 'Robert Downey Jr.', 1965, 'American');
+INSERT INTO ACTOR VALUES (7, 'Emma Stone', 1988, 'American');
+INSERT INTO ACTOR VALUES (8, 'Natalie Portman', 1981, 'Israeli-American');
+INSERT INTO ACTOR VALUES (9, 'Keanu Reeves', 1964, 'Canadian');
+INSERT INTO ACTOR VALUES (10, 'Hugh Jackman', 1968, 'Australian');
+
+-- USER_TABLE (sample 10 of 50)
+INSERT INTO USER_TABLE VALUES (1, 'Aarav Patel', 'pass123', 'N', TO_DATE('2021-02-15','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (2, 'Priya Sharma', 'abc@456', 'Y', TO_DATE('2020-06-12','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (3, 'Rohit Kumar', 'secure1', 'N', TO_DATE('2022-01-10','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (4, 'Ananya Das', 'pwd789', 'N', TO_DATE('2023-04-20','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (5, 'Neha Singh', 'root123', 'Y', TO_DATE('2020-09-25','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (6, 'Karan Mehta', 'k@321', 'N', TO_DATE('2021-12-01','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (7, 'Vikram Rao', 'raovik', 'N', TO_DATE('2022-05-17','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (8, 'Diya Nair', 'dn@2021', 'N', TO_DATE('2021-07-09','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (9, 'Rahul Sen', 'r@567', 'Y', TO_DATE('2020-03-03','YYYY-MM-DD'));
+INSERT INTO USER_TABLE VALUES (10, 'Isha Verma', 'ishaverma', 'N', TO_DATE('2023-06-21','YYYY-MM-DD'));
+
+-- MOVIE TABLE (sample 10 of 50)
+INSERT INTO MOVIE VALUES (1, 'Inception', 2010, 148, 1, 5, 1);
+INSERT INTO MOVIE VALUES (2, 'Titanic', 1997, 195, 3, 6, 1);
+INSERT INTO MOVIE VALUES (3, 'Avatar', 2009, 162, 3, 5, 9);
+INSERT INTO MOVIE VALUES (4, 'The Dark Knight', 2008, 152, 1, 1, 5);
+INSERT INTO MOVIE VALUES (5, 'Pulp Fiction', 1994, 154, 5, 2, 2);
+INSERT INTO MOVIE VALUES (6, 'Interstellar', 2014, 169, 1, 5, 13);
+INSERT INTO MOVIE VALUES (7, 'The Martian', 2015, 144, 6, 5, 8);
+INSERT INTO MOVIE VALUES (8, 'La La Land', 2016, 128, 9, 6, 7);
+INSERT INTO MOVIE VALUES (9, 'Wonder Woman', 2017, 141, 8, 1, 5);
+INSERT INTO MOVIE VALUES (10, 'Oppenheimer', 2023, 180, 1, 2, 1);
